@@ -20,7 +20,12 @@ export default {
   data(){
     return {
       characters: [
-        
+        {
+          name: "Vitalii",
+          role: "Project Manager",
+          image: vitalik,
+          salary: 15000
+        }
       ]
     }
   },
