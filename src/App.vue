@@ -14,6 +14,7 @@
 <script>
 import Character_component from "@/components/CharacterComponent.vue";
 import ivan from "@/assets/ivan.jpg";
+import vitalii from "@/assets/vitalii.jpg";
 export default {
   name: "app",
   components: {Character_component},
@@ -30,7 +31,7 @@ export default {
           name: "Ivan",
           role: "Fullstack developer",
           image: ivan,
-          salary: 10000
+          salary: 100000
         }
       ]
     }
