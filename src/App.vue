@@ -23,7 +23,7 @@ export default {
         {
           name: "Vitalii",
           role: "Project Manager",
-          image: vitalik,
+          image: vitalii,
           salary: 15000
         }
       ]
