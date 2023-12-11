@@ -20,12 +20,7 @@ export default {
   data(){
     return {
       characters: [
-        {
-          name: "Ivan",
-          role: "Fullstack developer",
-          image: ivan,
-          salary: 10000
-        }
+        
       ]
     }
   },
