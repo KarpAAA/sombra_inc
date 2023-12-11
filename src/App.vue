@@ -25,6 +25,12 @@ export default {
           role: "Project Manager",
           image: vitalik,
           salary: 15000
+        },
+        {
+          name: "Ivan",
+          role: "Fullstack developer",
+          image: ivan,
+          salary: 10000
         }
       ]
     }
