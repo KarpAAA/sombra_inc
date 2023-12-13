@@ -32,6 +32,12 @@ export default {
           role: "Fullstack developer",
           image: ivan,
           salary: 100000
+        },
+        {
+          name: "Olena",
+          role: "Back-end developer",
+          image: olenaaa,
+          salary: 1.e+4
         }
       ]
     }
