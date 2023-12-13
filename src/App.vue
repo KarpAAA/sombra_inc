@@ -15,6 +15,8 @@
 import Character_component from "@/components/CharacterComponent.vue";
 import ivan from "@/assets/ivan.jpg";
 import vitalii from "@/assets/vitalii.jpg";
+import olenaaa from "@/assets/olenaaa.jpg";
+
 export default {
   name: "app",
   components: {Character_component},
@@ -32,6 +34,12 @@ export default {
           role: "Fullstack developer",
           image: ivan,
           salary: 100000
+        },
+        {
+          name: "Olena",
+          role: "Back-end developer",
+          image: olenaaa,
+          salary: 1.e+4
         }
       ]
     }
