@@ -1,5 +1,4 @@
 <template>
-
   <div class="main">
     <div class="charactersContainer">
       <div v-for="c in characters" class="character">
@@ -7,41 +6,46 @@
       </div>
     </div>
   </div>
-
-
 </template>
 
 <script>
 import Character_component from "@/components/CharacterComponent.vue";
 import ivan from "@/assets/ivan.jpg";
 import vitalii from "@/assets/vitalii.jpg";
+import volodymyr from "@/assets/volodymyr.jpg";
 export default {
   name: "app",
-  components: {Character_component},
-  data(){
+  components: { Character_component },
+  data() {
     return {
       characters: [
         {
           name: "Vitalii",
           role: "Project Manager",
           image: vitalii,
-          salary: 15000
+          salary: 15000,
         },
         {
           name: "Ivan",
           role: "Fullstack developer",
           image: ivan,
-          salary: 100000
-        }
-      ]
-    }
+          salary: 100000,
+        },
+        {
+          name: "Volodymyr",
+          role: "UI/UX Designer",
+          image: volodymyr,
+          salary: 12000,
+        },
+      ],
+    };
   },
-}
+};
 </script>
 <style scoped>
-.character{
+.character {
   width: 47%;
-  margin: 15px
+  margin: 15px;
 }
 .charactersContainer {
   margin-top: 65px;
