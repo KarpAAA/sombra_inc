@@ -36,12 +36,17 @@ export default {
           name: "Olena",
           role: "Back-end developer",
           image: olenaaa,
-          salary: 1.e+4
+          salary: 1e4,
         },
         {
           name: "Volodymyr",
           role: "UI/UX Designer",
           image: volodymyr,
+          salary: 12000,
+        },
+        {
+          name: "Volodymyr",
+          role: "UI/UX Designer",
           salary: 12000,
         },
       ],
